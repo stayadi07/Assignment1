@@ -14,12 +14,12 @@ height: 100%;
 .column{
     display: inline-block;
     width: 35%;
-    height: 100px;
+    
     margin: 30px;
 }
 img{
-    width: 1000x;
-    height: 1000x;
+    width: 100%;
+    
 }
 .my-list{
     margin-top: 00px;
