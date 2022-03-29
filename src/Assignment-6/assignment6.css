@@ -1,7 +1,99 @@
 /* Our CSS file. */
-
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 .container, .content {
 width: 100%;
-height: 100%;
+display: flex;
+justify-content: space-around;
+background-image: linear-gradient(120deg, #3b6d6d, #3e5161 25%,#78989e);
 }
+
+.counter{
+    display: flex;
+    justify-content:space-around;
+    height: 70px;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+}
+
+.leftSide{
+    width: 55%;
+}
+
+.inputArea{
+    width: 100%;
+    height: 90vh;
+}
+
+#input{
+    width: 100%;
+    height: 80%;
+    resize:none;
+    background-image: linear-gradient(90deg, #ced5da, #d8d7b5 50%,#c2e2e7);
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.btn{
+    background-image: linear-gradient(90deg, #b4d7db, #eb614f 50%,#b6d88f);
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    margin: 10px 0;
+    font-size: larger;
+}
+
+#btn{
+    height: 70px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.rightSide{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para{
+    color: white;
+}
+
+#displayArea{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    margin: 5px;
+}
+
+.thread{
+    padding: 3% 5%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    word-break: break-word;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(90deg, #bdcea4, #c09c9c 50%,#c3bde4);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    padding: 1% 2%;
+}
+.paragraph{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px;
+    border-radius: 10px;
